@@ -42,7 +42,7 @@ ul li{list-style-type: none}
 .form-control:focus{
 
 }
-.tv-subscribe-form textarea:focus, .tv-subscribe-form textArea:focus, .tv-subscribe-form input[type="text"]:focus, .tv-subscribe-form input[type="password"]:focus, .tv-subscribe-form input[type="datetime"]:focus, .tv-subscribe-form input[type="datetime-local"]:focus, .tv-subscribe-form input[type="date"]:focus, .tv-subscribe-form input[type="month"]:focus, .tv-subscribe-form input[type="time"]:focus, .tv-subscribe-form input[type="week"]:focus, .tv-subscribe-form input[type="number"]:focus, .tv-subscribe-form input[type="email"]:focus, .tv-subscribe-form input[type="url"]:focus, .tv-subscribe-form input[type="search"]:focus, .tv-subscribe-form input[type="tel"]:focus, .tv-subscribe-form input[type="color"]:focus {   
+.tv-subscribe-form textarea:focus, .tv-subscribe-form textArea:focus, .tv-subscribe-form input[type="text"]:focus, .tv-subscribe-form input[type="password"]:focus, .tv-subscribe-form input[type="datetime"]:focus, .tv-subscribe-form input[type="datetime-local"]:focus, .tv-subscribe-form input[type="date"]:focus, .tv-subscribe-form input[type="month"]:focus, .tv-subscribe-form input[type="time"]:focus, .tv-subscribe-form input[type="week"]:focus, .tv-subscribe-form input[type="number"]:focus, .tv-subscribe-form input[type="email"]:focus, .tv-subscribe-form input[type="url"]:focus, .tv-subscribe-form input[type="search"]:focus, .tv-subscribe-form input[type="tel"]:focus, .tv-subscribe-form input[type="color"]:focus {
     border-color: none;
     box-shadow: none !important;
     outline: 0 none;
@@ -128,6 +128,7 @@ h1,h2,h3,h4,h5,h6{
     color: #ffc527;
 }
 .tv-section{
+  margin: 5em;
     padding: 100px 0 0;
 }
 .tv-section-heading, .tv-about-img, .tv-projects-filter, .tv-brand-image, .tv-copyright, .tv-slider .owl-nav i, .tv-section-heading h2::before, .tv-innerpage-title::before, #accordion a::after, .tv-step-content, .tv-member-content .tv-member-overlay, .tv-post-date, .tv-website-socialicon a, .tv-subscribe-form form .btn, .tv-innerpage-content, .back-to-top{
@@ -163,6 +164,25 @@ h1,h2,h3,h4,h5,h6{
     background-color: transparent;
     margin-bottom: 0px;
     padding: 10px 0;
+}
+.tv-member-name img{
+  height: 50%;
+  width: 40%
+}
+
+
+.tv-section-content img{
+  height: 65%;
+  width: 45%;
+}
+.tv-section-content-team{
+  margin: auto;
+  padding-left:
+}
+
+.img-responsive{
+  width: 20%;
+  margin: 0 auto;
 }
 
 /*header*/
@@ -360,7 +380,7 @@ input.tv-search-field{
     width: 40%;
 }
 .tv-slider-content-inner{
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 30px 20px;
     margin-bottom: 25px;
 }
